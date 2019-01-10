@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #17182f;
+    width: 100%;
+    height: 100%;
+  }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  
+  
+    #particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  #linkedin {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -90px;
+    width: 100px;
+    height: 100px;
+}
+
+#github {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -10px;
+    width: 100px;
+    height: 100px;
+}
