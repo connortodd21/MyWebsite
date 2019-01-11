@@ -3,22 +3,21 @@ body {
     background-color: #17182f;
     width: 100%;
     height: 100%;
-  }
+}
   
-  canvas {
+canvas {
     display: block;
     vertical-align: bottom;
-  }
+}
   
   
-  
-    #particles {
+#particles {
     position: absolute;
     width: 100%;
     height: 100%;
-  }
+}
 
-  #linkedin {
+#linkedin {
     z-index: 1;
     height: 100%;
     width: 100%;
@@ -39,6 +38,19 @@ body {
     top: 50%;
     left: 50%;
     margin-top: -50px;
+    margin-left: -10px;
+    width: 100px;
+    height: 100px;
+}
+
+#email {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px;
     margin-left: -10px;
     width: 100px;
     height: 100px;
